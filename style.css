@@ -15,7 +15,7 @@ html { box-sizing: border-box; }
 
 body {
     padding: 0;
-    margin: 0;
+    margin:0;
     background-color: #e5e5e5;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
@@ -28,6 +28,106 @@ body {
     margin: 0 auto; /* pruh je na stránce vycentrovaný */
     background: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    padding-left: 2px;
+    color: #25133d;
+    margin: 0;
+}
+
+.menu li {
+    padding: 12px 40px;
+}
+.info {
+   background-image: radial-gradient(ellipse farthest-corner at 900px 300px, rgb(241, 114, 142), #322099);
+   padding-left: 50px;
+   padding-top: none;
+   height: 450px;
+   position: relative;
+}
+.nazev {
+    color: white;
+    font-family: Source Sans Pro;
+    font-weight: normal;
+    font-size: 80px;
+    margin: 0;
+    padding-top: 50px;
+}
+.slogan {
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+    padding-top: 10px;
+    top: 20px;
+    margin: 0;
+}
+
+.mobil {
+   position: absolute;
+   bottom: -6px;
+   right: 0px;
+   padding: 0;
+   display: block;
+}
+
+.kontejner {
+    width: 960px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.tlacitka {
+    display: flex;
+    color: white;
+    align-content: flex-start;
+    margin-top: 30px;
+}
+
+.tlacitka p {
+    border-width: 1px;
+    border-radius: 10%;
+    padding: 16px 35px;
+}
+.stahnout {
+    border: white;
+    border-style: solid;
+    background-color: #322099;
+    margin-right: 20px;
+}
+.vice{
+    border: white;
+    border-style: solid;
+
+}
+
+.funkce {
+display: flex;
+text-align: center;
+justify-content: space-between;
+margin: 20px;
+}
+
+.zapati {
+    text-align: center;
+    background-color:#48418e ;
+    color: white;
+    padding: 5px;
+}
+
+.jedna {
+    margin: 15px;
+}
+.dva {
+    margin: 15px;
+}
+.tri {
+    margin: 15px;
+}
+h3 {
+    color:  #48418e;
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
